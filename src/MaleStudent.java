@@ -10,7 +10,7 @@ public class MaleStudent {
         int femaleStudents = 175;
         int maleStudents;
         maleStudents = noOfStudents - femaleStudents;
-        System.out.println("How many Male students are in the middle school? " + maleStudents + " Male students");
+        System.out.println("How many Male students are in the middle school?  " + maleStudents + " Male students");
 
     }
 }

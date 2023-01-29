@@ -6,10 +6,10 @@
  */
 public class SpeedLight {
     public static void main(String[] arg){
-        int meterPerSecond = 340; //declared variable
-        int time = 5; //declared variable
+        int speed = 340; //declared variable speed = meterpersecond
+        int time = 5; //declared variable in second
         int distance; //declared variable
-        distance = meterPerSecond / time; //
+        distance = speed * time;
 
         System.out.println("distance  = " + distance); //output
     }

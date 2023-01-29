@@ -7,13 +7,13 @@
 public class Chocolate {
     public static void main(String[] args){
         int bagsOfChocolate = 9;
-        int eachBagNoChocolates = 2;
-        int totalNoChocolate;
-        totalNoChocolate = bagsOfChocolate * eachBagNoChocolates;
-        System.out.println("total number of chocolate  = " + totalNoChocolate);
-        int newBagOfChocolate;
-        newBagOfChocolate = totalNoChocolate / 3 ;
-        System.out.println("number of bags with 3 Chocolates = " + newBagOfChocolate);
+        int eachBagNoOfChocolates = 2;
+        int totalNoOfChocolates;
+        totalNoOfChocolates = bagsOfChocolate * eachBagNoOfChocolates;
+        System.out.println("total number of chocolate  = " + totalNoOfChocolates);
+        int newBagsOfChocolate;
+        newBagsOfChocolate = totalNoOfChocolates / 3 ;
+        System.out.println("number of bags with 3 Chocolates = " + newBagsOfChocolate);
 
 
     }
